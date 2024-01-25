@@ -1,24 +1,47 @@
 
-
-
-
-
-
-
-@media (max-width: 388px) {
-    .section_first_title{
-        font-size: 20px;
+@media (max-width: 485px) {
+    /* section1  */
+    .section_first {
+      height: 304px;
     }
-    .section4_div_title{
-        font-size: 24px;
-    }
-}
-
-
-@media (max-width: 340px) {
-    /* section 4 */
-    .section4 {
-        padding-inline: 15px;
-    }
-}
-
+    h2{
+      font-size: 24px;
+  }
+  }
+  
+   @media (max-width: 420px) {
+      section2artworks
+       .section_second {
+          padding-inline: 20px;
+      }
+  
+      .section_second_div,
+      .box1_div,
+      .box2_div,
+      .box3_div,
+      .box4_div {
+          width: 100%;
+      }
+  } 
+  
+  
+  
+  
+  @media (max-width: 388px) {
+      
+      .section4_div_title{
+          font-size: 24px;
+      }
+  
+       contactsection 
+      .div_contact_info {
+          width: 100%;
+          gap: 0;
+          justify-content: space-between;
+      }
+  
+  }
+  
+  
+  
+  
